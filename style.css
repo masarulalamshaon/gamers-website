@@ -1,0 +1,104 @@
+/* work sans font from google fronts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Poppins&family=Work+Sans:ital,wght@0,500;0,700;0,800;1,600&display=swap');
+
+
+/*  shared styles */
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header style */
+
+/* header{
+    background: #FFFFFF;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+} */
+
+/* common color */
+.banner-title{
+    color:rgba(254, 68, 179, 1) ;
+}
+.text-light-gray{
+    color:#534C64;
+}
+
+
+
+.btn-linear{
+    background-color: rgba(255, 66, 165, 1);
+    color: white;
+    border-radius: 45px;
+
+}
+
+.btn-sky-color{
+    background-color: rgba(78, 197, 247, 1);
+    color: white;
+    border-radius: 45px;
+}
+
+.banner-section{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* we are gamer */
+
+.gamer{
+    background-color:rgba(255, 66, 165, 1));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gamer-title{
+    text-align: right;
+}
+
+.gamer-vedio-title{
+    align-items: center;
+}
+
+/* vedio-section */
+
+.vedio-section{
+    display: flex;
+    gap: 5px;
+    
+}
+
+
+
+/* responsive media Queries */
+
+/* mobile device */
+@media screen and (max-width:574px) {
+    
+    .banner-section,
+    .gamer{
+        flex-direction: column;
+        height: auto;
+    }
+    .banner-section-goat-pic,
+    .gamer-pic
+    {
+        width: 90%;
+        margin-left: 0;
+    }
+
+}
+
+
+/* medium device */
+@media screen  and (min-width:576px) and (max-width:992px){
+    .
+}
