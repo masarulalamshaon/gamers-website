@@ -12,14 +12,18 @@
 
 /* header style */
 
-/* header{
+header{
     background: #FFFFFF;
 }
 
 nav{
     display: flex;
-    justify-content: center;
-} */
+  
+    justify-content: space-between;
+    text-decoration: none;
+    
+    
+} 
 
 /* common color */
 .banner-title{
@@ -29,7 +33,9 @@ nav{
     color:#534C64;
 }
 
-
+.color-linear{
+    color: rgba(255, 66, 165, 1);
+}
 
 .btn-linear{
     background-color: rgba(255, 66, 165, 1);
@@ -55,7 +61,7 @@ nav{
 /* we are gamer */
 
 .gamer{
-    background-color:rgba(255, 66, 165, 1));
+    /* background-color:rgba(255, 66, 165, 1); */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -70,14 +76,35 @@ nav{
 
 /* vedio-section */
 
-.vedio-section{
+
+.image-container {
     display: flex;
-    gap: 5px;
-    
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+  }
+
+.image-description {
+    text-align: center;
+  }
+
+.grid-section{
+    display: flex;
+    justify-content: center;
 }
 
 
 
+
+
+
+
+
+
+.footer{
+    background-color:rgba(11, 2, 35, 1) ;
+    height: 636px;
+}
 /* responsive media Queries */
 
 /* mobile device */
