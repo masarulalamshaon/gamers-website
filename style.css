@@ -14,17 +14,26 @@
 
 header{
     background: #FFFFFF;
+    background-image: url("images/Group\ 14.png") ;
+    height: 150px;
 }
 
 nav{
     display: flex;
-  
     justify-content: space-between;
     text-decoration: none;
     
     
 } 
 
+.icon-nav{
+    text-align: center;
+}
+nav >ul {
+    text-decoration: none;
+    text-align: inline;
+
+}
 /* common color */
 .banner-title{
     color:rgba(254, 68, 179, 1) ;
@@ -93,10 +102,22 @@ nav{
     justify-content: center;
 }
 
+.img-gride-container{
+    border-radius: 5px;
+    padding: 40px;
 
+}
+.img-gride{
+    position: relative;
+    bottom: 200px;
+    margin: 5px;
+}
 
-
-
+.img-gride-2{
+    position:;
+    bottom: 200px;
+    margin: 5px;
+}
 
 
 
