@@ -34,6 +34,10 @@ nav >ul {
     text-align: inline;
 
 }
+
+.navbar-button{
+
+}
 /* common color */
 .banner-title{
     color:rgba(254, 68, 179, 1) ;
@@ -58,14 +62,17 @@ nav >ul {
     color: white;
     border-radius: 45px;
 }
-
+/*  banner-section-play-like  */
 .banner-section{
-    
+    background-color: rgba(140, 87, 238, 0.05);
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
+.banner-section-play-like{
+    text-align: center;
+    padding: 225px;
+}
 
 /* we are gamer */
 
@@ -77,6 +84,7 @@ nav >ul {
 }
 .gamer-title{
     text-align: right;
+    padding: 75px;
 }
 
 .gamer-vedio-title{
@@ -86,12 +94,18 @@ nav >ul {
 /* vedio-section */
 
 
-.image-container {
+.vedio-image-container {
     display: flex;
     justify-content: center;
     gap: 10px;
+    padding: 50px;
     margin: 0 auto;
+    
   }
+
+.image{
+    padding: 20px;
+}
 
 .image-description {
     text-align: center;
